@@ -1,0 +1,101 @@
+body {
+    background-image: url('sky\ photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+    font-family: Arial, sans-serif; 
+    background-color: #354554; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+    
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold; 
+    font-size: 1.5rem; 
+  }
+  
+  #searchInput {
+    width: 20%; 
+    padding: 10px;
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+  }
+  
+  
+  .card {
+    transition: transform 0.3s; 
+    margin: 15px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .card {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .card img {
+    height: 150px; 
+    object-fit: cover; 
+  }
+  
+  
+  .modal-content {
+    background-color: #f8f9fa;
+  }
+  
+ 
+  .modal-body img {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 20px;
+  }
+  
+
+  .modal-body h4 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+  }
+  
+  .modal-body p {
+    font-size: 1rem; 
+    margin-bottom: 8px; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .modal-body h4 {
+      font-size: 1.2rem;
+    }
+  
+    .modal-body p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  
+  footer {
+    margin-top: 20px; 
+    background-color: #f8f9fa; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+
+  .bg-info-custom {
+    background-color: #414534; 
+    color: white; 
+    padding: 15px;
+  }
+  
